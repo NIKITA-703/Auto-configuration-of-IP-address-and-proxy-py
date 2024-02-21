@@ -1,4 +1,5 @@
 /dist/
-text
+text.txt
 test.spec
 /build/
+GUI_network_configurator.spec
