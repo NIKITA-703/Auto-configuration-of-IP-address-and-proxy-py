@@ -16,7 +16,7 @@ def set_network(ip, mask, gateway, dns_servers):
         nic.SetDNSServerSearchOrder(dns_servers)
         print("Network settings successfully configured.")
     except Exception as e:
-        print("An error occurred while configuring network settings:", e)
+        print("An error occurred while configuring network settings: ", e)
 
 
 # Function to set proxy server

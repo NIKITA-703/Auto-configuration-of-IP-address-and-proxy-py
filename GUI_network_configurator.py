@@ -53,7 +53,7 @@ def configure_proxy():
 root = tk.Tk()
 root.title("Proxy Configuration")
 
-last_octet_label = tk.Label(root, text="Last Octet IP:")
+last_octet_label = tk.Label(root, text="Last Octet IP: ")
 last_octet_label.pack()
 last_octet_entry = tk.Entry(root)
 last_octet_entry.pack()
